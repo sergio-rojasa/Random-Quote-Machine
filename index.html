@@ -6,8 +6,11 @@
   <title>Random Quote Machine</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload=main()>
   <div id="card">
+    <p id="quote"></p>
+    <p id="author"></p>
+    <button type="button" id="new-quote" onclick="getQuote()">New Quote</button>
   </div>
   <script src="main.js"></script>
 </body>

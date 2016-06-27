@@ -10,3 +10,7 @@ body {
   background-color: white;
   margin-top: 25%;
 }
+#new-quote {
+  color: white;
+  border: none;
+}
