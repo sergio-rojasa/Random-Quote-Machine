@@ -20,11 +20,12 @@ html {
   font-size: 1.75rem;
 }
 #author {
-  margin-left: 45%;
+  margin-left: 53%;
   font-size: 1rem;
 }
 #tweet {
   display: inline;
+  margin-left: 3%;
 }
 #new-quote {
   display: inline;
@@ -34,8 +35,29 @@ html {
   border: none;
   width: 98px;
   height: 48px;
-  margin-left: 30%;
+  margin-left: 35%;
 }
 a  {
   text-decoration: none;
+}
+
+@media screen and (min-width: 350px) {
+  #quote {
+    font-size: 1.95rem;
+  }
+  #author {
+    font-size: 1.2rem;
+  }
+  #new-quote {
+    height: 55px;
+    width: 120px;
+    font-size: 1.2rem;
+    margin-left: 38%;
+  }
+}
+
+@media screen and (min-width: 410px) {
+  #card {
+    background-color: black;
+  }
 }
