@@ -5,11 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Random Quote Machine</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/d74d5b6261.js"></script>
 </head>
 <body onload=main()>
   <div id="card">
     <p id="quote"></p>
     <p id="author"></p>
+    <div>
+    <a id="tweet" target="_blank">
+        <i id="twitter" class="fa fa-twitter-square" aria-hidden="true"></i>
+    </a>
+    </div>
     <button type="button" id="new-quote" onclick="getQuote()">New Quote</button>
   </div>
   <script src="main.js"></script>
