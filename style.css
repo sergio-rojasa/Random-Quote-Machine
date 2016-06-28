@@ -2,12 +2,30 @@
   margin: 0 auto;
 }
 #card {
-  height: 100px;
   width: 100%;
   background-color: white;
   margin-top: 25%;
+  padding: 2%;
+}
+#quote {
+  padding: 3%;
+}
+#author {
+  margin-left: 45%;
+}
+#tweet {
+  display: inline;
 }
 #new-quote {
+  display: inline;
+  font-size: 1rem;
+  font-weight: bold;
   color: white;
   border: none;
+  width: 98px;
+  height: 48px;
+  margin-left: 27%;
+}
+a  {
+  text-decoration: none;
 }
