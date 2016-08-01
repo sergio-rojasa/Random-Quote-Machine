@@ -1,7 +1,7 @@
 # Random Quote Machine
 
 
-> Random quote is a web application that user can tweet a random quote.
+> Random quote is a web application that allows user to tweet a random quote.
 
 
 <br>
