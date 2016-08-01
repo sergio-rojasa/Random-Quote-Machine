@@ -1,7 +1,8 @@
 # Random Quote Machine
 
 
-> Random Quote is a web application that show a random quote when the user clicks a button.
+> Random quote is a web application that user can tweet a random quote.
+
 
 <br>
 ### Technology Stack
